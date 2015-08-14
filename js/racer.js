@@ -12,8 +12,8 @@ var canvas = document.getElementById('canvas'),
 	elPY = $('#py'),
 	speed = $('#speed');
 
-trackHit.src = "/image/track-hit.png";
-barrelsHit.src = "/image/barrels-hit.png";
+trackHit.src = "image/track-hit.png";
+barrelsHit.src = "image/barrels-hit.png";
 
 // collision
 var hit = new HitMap(trackHit),

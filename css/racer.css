@@ -5,7 +5,7 @@ canvas {
     display: block;
     border: solid 5px #444;
     margin: 0 auto;
-    background-image: url("image/track.png")
+    background-image: url("/image/track.png")
 }
 #finish {
     display: none;
@@ -33,7 +33,7 @@ canvas {
     background: #000
 }
 .garage {
-    background: url("image/garage.png") -6px -64px;
+    background: url("/image/garage.png") -6px -64px;
     width: 148px;
     height: 32px;
 }

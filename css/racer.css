@@ -1,0 +1,47 @@
+body {
+    background: #000;
+}
+canvas {
+    display: block;
+    border: solid 5px #444;
+    margin: 0 auto;
+    background-image: url("/image/track.png")
+}
+#finish {
+    display: none;
+    border: solid 5px #444;
+    margin: 0 auto;
+    width: 1000px;
+    height: 700px;
+    color: #FFF;
+    overflow: hidden;
+}
+#fresult {
+    display: table-cell; 
+    vertical-align: middle;
+    text-align: center;
+}
+#info {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    background-color: white;
+    top: 0px;
+}
+#cars {
+    padding-top: 15px;
+    background: #000
+}
+.garage {
+    background: url("/image/garage.png") -6px -64px;
+    width: 148px;
+    height: 32px;
+}
+#once_again{
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 100px;
+    margin: 10px auto;
+    padding: 15px 30px;
+    cursor: pointer;
+}
